@@ -10,8 +10,4 @@ git clone git://github.com/altercation/vim-colors-solarized.git
 mv vim-colors-solarized ~/.vim/bundle/
 
 # Copy over .vimrc
-mv .vimrc ~/.vimrc
-
-# Clean up
-cd ..
-rm -rf vimrc
+cp ~/vimrc/.vimrc ~/.vimrc
